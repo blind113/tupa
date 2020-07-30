@@ -1,0 +1,55 @@
+#frmRegistro #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+
+#frmRegistro input.invalid,
+#frmRegistro select.invalid,
+#frmRegistro select.invalid option {
+    background-color: #e2afaf;
+    border-color: #e04e4e;
+    color: #bb0000;
+}
+
+#frmRegistro .tab {
+    display: none;
+}
+
+#frmRegistro .tab.ativo {
+    display: block;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #999;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+#frmRegistro .step.ativo {
+    opacity: 1;
+    background-color: #4CAF50;
+}
+
+.error {
+    border-color: #f00;
+    color: #f00;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+#frmRegistro .page-sidebar-fixed.page-header-fixed .page-inner {
+    padding: 60px 0 50px 0px;
+}
+
+.panel .panel-heading+.panel-body {
+    padding: 0 20px 20px 20px;
+    background: #f1f1f1;
+}
